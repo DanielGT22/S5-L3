@@ -1,0 +1,29 @@
+.menu {
+  width: 80%;
+  background-color: #fbf7e3;
+  border-radius: 30px;
+  margin: 5%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: auto;
+  margin-right: auto;
+  height: 46px;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 5px;
+}
+.logo img {
+  width: 20px;
+}

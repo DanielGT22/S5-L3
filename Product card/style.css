@@ -1,0 +1,44 @@
+.honey {
+  display: flex;
+  flex-wrap: wrap;
+  width: 48%;
+  margin: auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 90px;
+  background-color: #fbf7e3;
+  color: #612406;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.card-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+.card button {
+  background-color: #f3df85;
+  color: #612406;
+  border: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 50%;
+  align-self: center;
+  border-radius: 20px;
+}
+.card-text h3 {
+  margin-bottom: 1px;
+}
+.card-text p {
+  margin-top: 1px;
+  text-align: center;
+}
+@media screen and (min-width: 575px) {
+}
